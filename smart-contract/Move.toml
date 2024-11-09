@@ -1,0 +1,14 @@
+[package]
+name = "did"
+version = "1.0.0"
+authors = []
+
+[addresses]
+user_data = "0xcd28a619586aff3cb9b14f15096875ee980f11135aba3f5bc7ab39c47dd7fd8f"
+
+[dev-addresses]
+user_data = "0xcd28a619586aff3cb9b14f15096875ee980f11135aba3f5bc7ab39c47dd7fd8f"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "main" }
